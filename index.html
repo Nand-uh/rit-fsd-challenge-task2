@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><h1>Event Registration Form</h1></p>
+    <form action="" method="post">
+
+        <label for="text">Full Name </label>
+        <input type="text"> <br><br>
+
+
+        <label for="mail">Email Id</label>
+        <input type="email" name="" id="mail"> <br> <br>
+
+        <label for="Phone_Number" min="0" max="9">Phone No</label>
+        <input type="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" id="Phone_Number"placeholder="0123-456-789"><br> <br>
+
+        <label for="Enter message">Enter message</label>
+        <textarea name="" id="Enter message" placeholder="enter your message here" rows="6" cols="50"></textarea>
+        <br> <br>
+
+        <label for="date">Event Date</label>
+        <input type="date" id="date">
+        <br> <br>
+
+        <label for="time">Event Time</label>
+        <input type="time" name="" id="">
+        <br> <br>
+
+        <label for="">Event Type</label>
+        <select name="select an event" id="Event Type">
+            <option selected disabled>select an event type</option>
+            <option >conference</option>
+            <option >workshops</option>
+            <option >webminar</option>
+        </select>
+        <br><br>
+    
+        <label for="select food">Dietary Restrictions:</label>
+        <br>
+        <input type="checkbox" name="dietary_restrictions" value="vegetarian">
+        Vegetarian
+        <br>
+        <input type="checkbox" name="dietary_restrictions" value="glutan-free">
+        glutan-free
+        <br><br>
+        <label for="T-shirt Size:">T-shirt Size:</label>
+        <br>
+       
+      <input type="radio" name="tshirt_size" value="S">
+      S
+    <br>
+      <input type="radio" name="tshirt_size" value="M">
+      M
+    <br>
+      <input type="radio" name="tshirt_size" value="L">
+      L
+   <br>
+      <input type="radio" name="tshirt_size" value="XL">
+      XL
+    <br>
+    <br>
+    <label for="comments">Comments/Questions:</label><br>
+  <textarea id="comments" name="comments" rows="5" cols="40" maxlength="250" placeholder="Enter your comments or questions here..."></textarea>
+  <br><br>
+  <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>cd
